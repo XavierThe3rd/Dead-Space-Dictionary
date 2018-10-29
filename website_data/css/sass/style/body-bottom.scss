@@ -1,0 +1,42 @@
+h2{
+    color:red;
+    margin: 0 auto;
+    font-size: 50px;
+    padding-bottom: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.bottom-content-wrap{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding:50px 160px;
+    background: black;
+    justify-content: space-between;
+}
+.necro-content{
+    display: flex;
+    flex-direction: column;
+    padding: 40px 0;
+
+    .img-main{
+        width:700px;
+    }
+}
+.necro-content > ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 30px;
+
+    li{
+        list-style-type: none;
+
+        a{
+            text-decoration: none;
+            font-size: 20px;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            text-transform: uppercase;
+            color:red;
+        }
+    }
+}
